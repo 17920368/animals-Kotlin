@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00B8D4"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:layout_width="381dp"
+        android:layout_height="307dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.413">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/imgElefante"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:srcCompat="@mipmap/elefante" />
+
+            <ImageButton
+                android:id="@+id/imgVaca"
+                android:layout_width="match_parent"
+                android:layout_height="83dp"
+                android:layout_weight="1"
+                app:srcCompat="@mipmap/vaca" />
+
+            <ImageButton
+                android:id="@+id/imgGato"
+                android:layout_width="match_parent"
+                android:layout_height="83dp"
+                android:layout_weight="1"
+                app:srcCompat="@mipmap/gato" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/imgChango"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:srcCompat="@mipmap/mono" />
+
+            <ImageButton
+                android:id="@+id/imgRana"
+                android:layout_width="match_parent"
+                android:layout_height="83dp"
+                android:layout_weight="1"
+                app:srcCompat="@mipmap/rana" />
+
+            <ImageButton
+                android:id="@+id/imgPerro"
+                android:layout_width="match_parent"
+                android:layout_height="83dp"
+                android:layout_weight="1"
+                app:srcCompat="@mipmap/perro" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/imgCaballo"
+                android:layout_width="match_parent"
+                android:layout_height="83dp"
+                android:layout_weight="1"
+                app:srcCompat="@mipmap/caballo" />
+
+            <ImageButton
+                android:id="@+id/imgGallo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:srcCompat="@mipmap/gallo" />
+
+            <ImageButton
+                android:id="@+id/imgPato"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:srcCompat="@mipmap/pato" />
+        </TableRow>
+
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        style="@android:style/Widget.Material.Light.TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:gravity="center"
+        android:text="Animales"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
